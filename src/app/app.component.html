@@ -1,0 +1,77 @@
+<section>
+	<!--======= TOP NAV BAR =======-->
+	<mat-toolbar color="primary" class="topBar">
+		<div fxHide.gt-xs>
+			<button mat-icon-button (click)="snav.toggle()">
+            <mat-icon>menu</mat-icon>
+          </button>
+			</div>
+			<div fxFlex> </div>
+			<div  fxFlex>
+				Proving Grounds
+			</div>
+			<div fxFlex > </div>
+  </mat-toolbar>
+	<!-- end top nav bar-->
+
+  <!--======= SIDE BAR and MAIN PAGE CONTENT =======-->
+	<mat-sidenav-container hasBackdrop="true">
+  	<!----------SIDE BAR----------->
+		<mat-sidenav #snav mode="'over'" [fixedInViewport]="true">
+			<!--MENU ITEMS -->
+			<mat-nav-list>
+				<mat-list-item routerLink="/home" (click)="close()">
+					<mat-icon matListIcon>home</mat-icon>
+					Home
+				</mat-list-item>
+
+        <mat-list-item routerLink="/login" (click)="close()">
+          <mat-icon matListIcon>account_box</mat-icon>
+            Login
+        </mat-list-item>
+        
+        <mat-list-item routerLink="/list" (click)="close()">
+          <mat-icon matListIcon>list</mat-icon>
+            List
+        </mat-list-item>
+        
+        <mat-list-item routerLink="/register" (click)="close()">
+          <mat-icon matListIcon>add</mat-icon>
+            Register
+        </mat-list-item>
+        
+        <mat-list-item routerLink="/dumpingground" (click)="close()">
+          <mat-icon matListIcon>account_box</mat-icon>
+            Test Stuff
+        </mat-list-item>
+      
+				<mat-list-item (click)="snav.close()">
+					<mat-icon matListIcon>cancel</mat-icon>
+					Close
+				</mat-list-item>
+			</mat-nav-list>
+		</mat-sidenav>
+	  <!-- end side bar-->
+
+	  <!----------main page content - ROUTER----------->
+		<mat-sidenav-content>
+			<router-outlet></router-outlet>
+		</mat-sidenav-content>
+    <!-- end main page content-->
+	</mat-sidenav-container>
+
+
+  
+  <div class="bottom-bar" >
+    <i class="material-icons" (click)="setTheme('theme-yellow', $event)" routerLink="home">
+    featured_play_list
+    </i>
+    <i class="material-icons" (click)="setTheme('theme-red', $event)" routerLink="home">
+    face
+    </i>
+    <i class="material-icons" (click)="setTheme('theme-blue', $event)" routerLink="home">
+    search
+    </i>
+  </div>
+
+<section>
