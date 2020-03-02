@@ -1,0 +1,21 @@
+.buttonLogin {
+  background-color: #9CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 101px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonOtherStuff {
+  background-color: #1CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
