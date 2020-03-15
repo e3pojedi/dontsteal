@@ -32,8 +32,8 @@
     </div>
 
    <mat-form-field appearance="outline">
-    <mat-label>Enter your password</mat-label>
-    <input matInput required [type]="hide ? 'password' : 'text'">
+    <mat-label>Password</mat-label>
+    <input matInput required placeholder="Enter Password" [type]="hide ? 'password' : 'text'">
     <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
     <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
     </button>
