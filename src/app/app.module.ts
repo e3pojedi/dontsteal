@@ -52,6 +52,7 @@ import { LoginComponent } from './login/login.component';
 import { ListComponent } from './list/list.component';
 import { RegisterComponent } from './register/register.component';
 import { DumpinggroundComponent } from './dumpingground/dumpingground.component';
+import { ForgotpwComponent } from './forgotpw/forgotpw.component';
 
 
 
@@ -63,7 +64,7 @@ const appRoutes: Routes = [
     {path: 'register', component:RegisterComponent},
     {path: 'list', component:ListComponent},
     {path: 'dumpingground', component:DumpinggroundComponent},
-
+    {path: 'forgotpw', component:ForgotpwComponent},
     {path: '**', component: HomeComponent}
 ];
 
@@ -115,7 +116,7 @@ const appRoutes: Routes = [
             //  { enableTracing: true } // <-- debugging purposes only
         )
     ],  // end imports
-    declarations: [AppComponent, HomeComponent, LoginComponent, ListComponent, RegisterComponent, DumpinggroundComponent],
+    declarations: [AppComponent, HomeComponent, LoginComponent, ListComponent, RegisterComponent, DumpinggroundComponent, ForgotpwComponent],
     bootstrap: [AppComponent],
     providers: [PeopleService]
 })

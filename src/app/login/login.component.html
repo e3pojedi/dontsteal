@@ -1,12 +1,14 @@
 <mat-card>
-<mat-card-title>  Login  </mat-card-title>
+<mat-card-title>Welcome to License Locator!</mat-card-title>
+<h2>Login or Register to proceed:</h2>
 <mat-card-content>
   <form>
+    <div>
     <mat-form-field appearance="outline">
     <mat-label>Username</mat-label>
     <input matInput placeholder="Input Username">
     </mat-form-field>
-    
+  </div>
     <mat-form-field appearance="outline">
     <mat-label>Password</mat-label>
     <input type="password" matInput placeholder="Input Password">
@@ -15,7 +17,7 @@
   </form>
   
   <div>
-    <button mat-raised-button  color="primary" div class="buttonOtherStuff"  routerLink="/home">Forgot Password?</button>
+    <button mat-raised-button  color="primary" div class="buttonOtherStuff"  routerLink="/forgotpw">Forgot Password?</button>
 
     <button mat-raised-button  color="primary"  div class="buttonOtherStuff" routerLink="/register">Register</button>
   </div>
