@@ -55,6 +55,7 @@ import { DumpinggroundComponent } from './dumpingground/dumpingground.component'
 import { ForgotpwComponent } from './forgotpw/forgotpw.component';
 import { LGhomeComponent } from './lghome/lghome.component';
 import { AddlicenseComponent } from './addlicense/addlicense.component';
+import { DemeritComponent } from './demerit/demerit.component';
 
 
 
@@ -69,6 +70,7 @@ const appRoutes: Routes = [
     {path: 'forgotpw', component:ForgotpwComponent},
     {path: 'lghome', component:LGhomeComponent},
     {path: 'addlicense', component:AddlicenseComponent},
+    {path: 'demerit', component:DemeritComponent},
 
     {path: '**', component: HomeComponent}
 ];
@@ -121,7 +123,7 @@ const appRoutes: Routes = [
             //  { enableTracing: true } // <-- debugging purposes only
         )
     ],  // end imports
-    declarations: [AppComponent, HomeComponent, LoginComponent, ListComponent, RegisterComponent, DumpinggroundComponent, ForgotpwComponent, LGhomeComponent, AddlicenseComponent],
+    declarations: [AppComponent, HomeComponent, LoginComponent, ListComponent, RegisterComponent, DumpinggroundComponent, ForgotpwComponent, LGhomeComponent, AddlicenseComponent, DemeritComponent],
     bootstrap: [AppComponent],
     providers: [PeopleService]
 })
