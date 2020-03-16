@@ -31,7 +31,7 @@ a:hover {
 }
 
 .buttonLogin {
-  background-color: #9CAF50; /* Green */
+  background-color: #7b1fa2; /* Green */
   border: none;
   color: white;
   padding: 10px 101px;
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .buttonOtherStuff {
-  background-color: #1CAF50; /* Green */
+  background-color: #3b0055; /* Green */
   border: none;
   color: white;
   padding: 5px 12px;

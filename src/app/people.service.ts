@@ -19,7 +19,7 @@ export class PeopleService {
 // ARRAY OF OBJECTS
  UserArray = [
     {
-      LicenceType: "C LRN",
+      LicenceType: "C",
       LicenceNumber: "19337618",
       DOB: "12/03/1995",
       ExpDate: "12/08/2021",
@@ -32,17 +32,17 @@ export class PeopleService {
     {
       LicenceType: "C LRN",
       LicenceNumber: "12546983",
-      DOB: "12/03/1995",
+      DOB: "24/02/2000",
       ExpDate: "12/08/2021",
       CardNumber: "0825469132",
       ConfirmationNo: "12479563",
-      Address: "117 Space Street, Sydney",
+      Address: "117 Chief Street, Sydney",
       HolderName: "John Spar TAN"
     },
     {
-      LicenceType: "C LRN",
+      LicenceType: "C P1",
       LicenceNumber: "13496578",
-      DOB: "12/03/1995",
+      DOB: "29/08/1993",
       ExpDate: "12/08/2021",
       CardNumber: "12879456385",
       ConfirmationNo: "19764328",
