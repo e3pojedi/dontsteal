@@ -25,16 +25,27 @@ export class PeopleService {
       ExpDate: "12/08/2021",
       CardNumber: "1234567890",
       ConfirmationNo: "12345678",
-      Address: "1234 Street"
+      Address: "1234 Street",
+      HolderName: "John Devins JOE"
 
     },
     {
-      LicenceType: "Fishing Licence",
-      LicenceNumber: "ZX23Y111"
+       LicenceType: "C",
+      LicenceNumber: "12345678",
+      DOB: "12/03/1995",
+      ExpDate: "12/08/2021",
+      CardNumber: "1234567890",
+      ConfirmationNo: "12345678",
+      Address: "1234 Street"
     },
     {
-      LicenceType: "Flying Licence",
-      LicenceNumber: "fly3443hight"
+       LicenceType: "C LRN",
+      LicenceNumber: "12345678",
+      DOB: "12/03/1995",
+      ExpDate: "12/08/2021",
+      CardNumber: "1234567890",
+      ConfirmationNo: "12345678",
+      Address: "1234 Street"
     }
   ];
 

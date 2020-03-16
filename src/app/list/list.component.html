@@ -2,8 +2,11 @@
   <mat-list-item *ngFor="let item of people">
     <mat-card>
       <table width="100%">
+        
         <tr>
-          <td> {{item.LicenceType}}  </td>
+          <tr>
+          <td><h2>
+          {{item.HolderName}} </h2></td>
           <td> </td>
           <td> <button mat-raised-button color="accent">Edit</button>  </td>
         </tr>
@@ -13,6 +16,10 @@
           <td> </td>
           <td> <button mat-raised-button color="warn">Delete</button></td>
           <td> </td>
+        </tr>
+        <tr>
+          <td> License Type: 
+          {{item.LicenceType}} </td>
         </tr>
         <tr>
           <td> DOB: 
