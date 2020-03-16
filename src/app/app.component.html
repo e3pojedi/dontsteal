@@ -24,24 +24,24 @@ License Locator			</div>
 					Home
 				</mat-list-item>
 
-       
+        <mat-list-item routerLink="/addlicense" (click)="close()">
+          <mat-icon matListIcon>add_box</mat-icon>
+            Add License
+        </mat-list-item>
         
         <mat-list-item routerLink="/list" (click)="close()">
           <mat-icon matListIcon>list</mat-icon>
             List Licenses
         </mat-list-item>
         
-        <mat-list-item routerLink="/addlicense" (click)="close()">
-          <mat-icon matListIcon>add</mat-icon>
-            Add License
-        </mat-list-item>
 
 <mat-list-item routerLink="/fines" (click)="close()">
-          <mat-icon matListIcon>add</mat-icon>
+          <mat-icon matListIcon>attach_money</mat-icon>
             View Fines
         </mat-list-item>
+
 <mat-list-item routerLink="/demerit" (click)="close()">
-          <mat-icon matListIcon>add</mat-icon>
+          <mat-icon matListIcon>money_off</mat-icon>
             View Demerits
         </mat-list-item>
 
