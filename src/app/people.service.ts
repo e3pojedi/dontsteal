@@ -19,8 +19,14 @@ export class PeopleService {
 // ARRAY OF OBJECTS
  UserArray = [
     {
-      LicenceType: "Drivers Licence",
-      LicenceNumber: "P123Y777"
+      LicenceType: "C LRN",
+      LicenceNumber: "12345678",
+      DOB: "12/03/1995",
+      ExpDate: "12/08/2021",
+      CardNumber: "1234567890",
+      ConfirmationNo: "12345678",
+      Address: "1234 Street"
+
     },
     {
       LicenceType: "Fishing Licence",
