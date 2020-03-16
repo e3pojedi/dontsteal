@@ -19,35 +19,40 @@ License Locator			</div>
 		<mat-sidenav #snav mode="'over'" [fixedInViewport]="true">
 			<!--MENU ITEMS -->
 			<mat-nav-list>
-				<mat-list-item routerLink="/home" (click)="close()">
+				<mat-list-item routerLink="/lghome" (click)="close()">
 					<mat-icon matListIcon>home</mat-icon>
 					Home
 				</mat-list-item>
 
-        <mat-list-item routerLink="/login" (click)="close()">
-          <mat-icon matListIcon>account_box</mat-icon>
-            Login
-        </mat-list-item>
+       
         
         <mat-list-item routerLink="/list" (click)="close()">
           <mat-icon matListIcon>list</mat-icon>
-            List
+            List Licenses
         </mat-list-item>
         
-        <mat-list-item routerLink="/register" (click)="close()">
+        <mat-list-item routerLink="/addlicense" (click)="close()">
           <mat-icon matListIcon>add</mat-icon>
-            Register
+            Add License
+        </mat-list-item>
+
+<mat-list-item routerLink="/fines" (click)="close()">
+          <mat-icon matListIcon>add</mat-icon>
+            View Fines
+        </mat-list-item>
+<mat-list-item routerLink="/demerit" (click)="close()">
+          <mat-icon matListIcon>add</mat-icon>
+            View Demerits
+        </mat-list-item>
+
+<mat-list-item routerLink="/home" (click)="close()">
+          <mat-icon matListIcon>eject</mat-icon>
+            Logout
         </mat-list-item>
         
-        <mat-list-item routerLink="/dumpingground" (click)="close()">
-          <mat-icon matListIcon>account_box</mat-icon>
-            Test Stuff
-        </mat-list-item>
+       
       
-				<mat-list-item (click)="snav.close()">
-					<mat-icon matListIcon>cancel</mat-icon>
-					Close
-				</mat-list-item>
+				
 			</mat-nav-list>
 		</mat-sidenav>
 	  <!-- end side bar-->
