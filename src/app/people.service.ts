@@ -20,32 +20,34 @@ export class PeopleService {
  UserArray = [
     {
       LicenceType: "C LRN",
-      LicenceNumber: "12345678",
+      LicenceNumber: "19337618",
       DOB: "12/03/1995",
       ExpDate: "12/08/2021",
-      CardNumber: "1234567890",
-      ConfirmationNo: "12345678",
-      Address: "1234 Street",
-      HolderName: "John Devins JOE"
+      CardNumber: "1249358765",
+      ConfirmationNo: "03798435",
+      Address: "15 Smith Street, Sydney",
+      HolderName: "Jerry Sine FIELD"
 
     },
     {
-       LicenceType: "C",
-      LicenceNumber: "12345678",
+      LicenceType: "C LRN",
+      LicenceNumber: "12546983",
       DOB: "12/03/1995",
       ExpDate: "12/08/2021",
-      CardNumber: "1234567890",
-      ConfirmationNo: "12345678",
-      Address: "1234 Street"
+      CardNumber: "0825469132",
+      ConfirmationNo: "12479563",
+      Address: "117 Space Street, Sydney",
+      HolderName: "John Spar TAN"
     },
     {
-       LicenceType: "C LRN",
-      LicenceNumber: "12345678",
+      LicenceType: "C LRN",
+      LicenceNumber: "13496578",
       DOB: "12/03/1995",
       ExpDate: "12/08/2021",
-      CardNumber: "1234567890",
-      ConfirmationNo: "12345678",
-      Address: "1234 Street"
+      CardNumber: "12879456385",
+      ConfirmationNo: "19764328",
+      Address: "06 Bravo Avenue, Sydney",
+      HolderName: "John PRICE"
     }
   ];
 
